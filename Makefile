@@ -25,7 +25,7 @@ test:
 integration-tests:
 	./integration-tests.sh
 
-image:
+image: build
 	docker build -t cluster-capacity .
 
 clean:
